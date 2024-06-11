@@ -2,8 +2,109 @@
 <html>
     <head>
         <title>HELLO WORLD</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Gwendolyn:wght@400;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+        <style>
+            #title{
+                font-size: 15pt;
+            }
+
+            .font-red{
+                color: rgb(11, 3, 9);
+            }
+            @media only screen and (max-width: 700px) {
+  body {
+    background-color: lightblue;
+  }
+}
+        </style>
     </head>
     <body>
-        <center><h1>HELLO WORLD</h1></center>
+        <section style="background-color: rgba(132, 192, 249, 0.647); padding: 10px;">
+            <p id="title" class="font-red">
+        <em>HELLO DEAR</em>
+            </p>
+            <img src="image.jpeg"/>
+            <a href="hubungi saya.html" target="_blank">klik disini untuk menghubungi saya</a>
+        </section>
+        <form action="">
+            <fieldset id="field_user">
+                <legend>Personal Information</legend>
+                <div id="input_username">
+                    <label for="Full Name">Username</label>
+                    <input type="text" name="Full Name" id="a" />
+                </div>
+                <div>
+                    <label for="number">No. Telephone</label>
+                    <input type="number" />
+                </div>
+                <div id="input_email">
+                    <label for="Email">E-mail</label>
+                    <input type="text" name="Email" id="b" />
+                </div>
+            </fieldset>
+            <fieldset id="field_user">
+                <legend>Details</legend>
+                    <label>Jenis Kelamin</label>
+                    <input type="radio" name="jk"> Perempuan
+                    <input type="radio" name="jk"> laki-laki
+                <div>
+                    <label for="dob"> Day of birth</label>
+                    <input type="date" name="dob" id="c" />
+                </div>
+                <div>
+                    <label for="dob"> Addres</label>
+                    <textarea type="dob" name="dob" id="c"> </textarea>
+                </div>
+            </fieldset>
+        </form>
+        <div>
+           <marquee behaviour="" direction=""><p class="font-gwendolyn">
+            So do not fear, for I am with you;
+    do not be dismayed, for I am your God.
+I will strengthen you and help you;
+    I will uphold you with my righteous right hand.
+            </p></marquee>
+        </div>
+        <button id="chat_button" type="button">Chat</button>
+        <table>
+            <thead>
+                <tr>
+                    <th>No.</th>
+                    <th>Email</th>
+                    <th>Asal</th>
+                </tr>
+
+            </thead>
+            <tbody>
+                <tr>
+                    <td>1.</td>
+                    <td>soviana@altera.id</td>
+                    <td>bandung</td>
+                </tr>
+                <tr>
+                    <td>2.</td>
+                    <td>vishyana@altera.id</td>
+                    <td>bekasi</td>
+                </tr>
+                <tr>
+                    <td>3.</td>
+                    <td>nathasya@altera.id</td>
+                    <td>bogor</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <ol>
+            <li>test</li>
+            <li>test</ul>
+            <li>test</li>
+        </ol>
     </body>
 </html>
+
+<script>
+    console.log("hello world !!!");
+</script>
