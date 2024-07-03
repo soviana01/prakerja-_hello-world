@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>HELLO GUYS:</title>
+
+    <link href="./Assest/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./Assest/hubungi saya.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+</head>
+<body>
+	<h1>LENGKAPI INFORMASI BERIKUT:</h1>
+	<button onclick="document.getElementById('demo').innerHTML=Date()">The time is?</button>
+
+		<p id="demo"></p>
+
+
+	<div class="login">
+		<form action="#" method="POST" onSubmit="validasi()">
+			<div>
+				<label>Full Name:</label>
+				<input type="text" name="nama" id="nama" required />
+			</div>
+            <div>
+				<label>No.Telp Pengirim:</label>
+				<input type="number" name="no. telp" id="no.telp" required />
+			</div>
+            <div>
+				<label>E-mail Pengirim:</label>
+				<input type="email" name="email" id="email" placeholder="email@.com" required />
+			</div>
+			<div>
+				<label>Address:</label>
+				<textarea cols="40" rows="5" name="alamat" id="alamat" required ></textarea>
+			</div>
+            <div>
+				<label>keterangan:</label>
+				<textarea cols="40" rows="5" name="keterangan" id="keterangan" required ></textarea>
+			</div>
+			<div>
+				<input type="submit" value="submit" class="tombol" id="myBtn">
+			</div>
+		</form>
+	</div>
+    <script src="./hubungi saya.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js></script"></script>
+    <script src="./Assest/bootstrap/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
